@@ -1,0 +1,85 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+/* General Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fdf6f0;
+  color: #4a4a4a;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+div {
+  max-width: 70%;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+/* Title */
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: #d57c84;
+  margin-bottom: 10px;
+}
+
+/* Game Over Message */
+h2 {
+  font-size: 1.5rem;
+  color: #d57c84;
+}
+
+/* Scrambled Word */
+h2.word {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4a4a4a;
+  margin: 20px 0;
+}
+
+/* Input Field */
+input {
+  padding: 10px;
+  width: 80%;
+  font-size: 1rem;
+  border: 2px solid #f2a1a8;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  background-color: #f2a1a8;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  margin: 10px 5px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #d57c84;
+}
+
+/* Disabled Button */
+button:disabled {
+  background-color: #e8d5d5;
+  cursor: not-allowed;
+}
+
+/* Scoreboard */
+p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4a4a4a;
+  margin: 10px 0;
+}
